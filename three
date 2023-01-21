@@ -1,0 +1,6 @@
+// задание №3 
+
+function getProto (x) {
+    return Object.create(null)
+}
+console.log(getProto()) 
